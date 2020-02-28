@@ -1,0 +1,124 @@
+
+body {
+  margin: 5;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  box-sizing: border-box;
+}
+.verse {
+  background-color:  rgb(0, 0, 0);
+  color: white;
+  font-family: 'Press Start 2P' ;
+  text-decoration: none;
+  float: left;
+  padding-left: 20px;
+  font-size: 30px;
+}
+.verse2 {
+  background-color:  rgb(0, 0, 0);
+  color: white;
+  font-family: 'Press Start 2P' ;
+  text-decoration: none;
+  float: left;
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+.verse3 {
+  padding-top: 600px;
+  font-family: 'Press Start 2P' ;
+  text-decoration: none;
+  color: white;
+  background-color:  rgb(0, 0, 0);
+  padding-left: 20px;
+  font-size: 30px;
+}
+
+
+.giphy-embed {
+  padding-top: 1000px;
+  padding-left: 200px;
+}
+@media only screen and (max-width: 600px) {
+  
+}
+
+.verse:hover {
+  color: pink;
+}
+.verse2:hover {
+  color: rgb(255, 102, 128);
+}
+.verse3:hover {
+  color: rgb(255, 0, 157);
+}
+#giphy-embed{
+  bottom:15%;
+  position:absolute;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}     
+@-webkit-keyframes run {
+  0% { left: 0;}
+  50%{ left : 50%;}
+  100%{ left: 0;}
+  .iki-embed {
+  padding-top: 500px;
+}
+}
+#iki-embed{
+  bottom: 15%;
+  position:absolute;
+  -webkit-animation:linear infinite alternate;
+  -webkit-animation-name: run;
+  -webkit-animation-duration: 5s;
+}     
+@-webkit-keyframes run {
+  0% { left: 0;}
+  50%{ left : 50%;}
+  100%{ left: 0;}
+}
+.h1 {
+  background: #333;
+  padding-top: 5em;
+  display: flex;
+  justify-content: center;
+}
+
+/* DEMO-SPECIFIC STYLES */
+.typewriter h1 {
+  color: #fff;
+  font-family: "Press Start 2p";
+  overflow: hidden; /* Ensures the content is not revealed until the animation */
+  border-right: .15em solid orange; /* The typwriter cursor */
+  white-space: nowrap; /* Keeps the content on a single line */
+  margin: 0 auto; /* Gives that scrolling effect as the typing happens */
+  letter-spacing: .15em; /* Adjust as needed */
+  animation: 
+    typing 3.5s steps(30, end),
+    blink-caret .5s step-end infinite;
+}
+
+/* The typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+/* The typewriter cursor effect */
+@keyframes blink-caret {
+  from, to { border-color: transparent }
+  50% { border-color: orange }
+}
+
+.typewrite {
+  font-family: "Press Start 2p";
+  background-color:#ff00bf;
+  text-align: center;
+  color:#fff;
+  padding-top:0em;
+}
+
+* { color:#fff; text-decoration: none;}

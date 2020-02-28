@@ -1,0 +1,32 @@
+.albums {
+    background-color:pink;
+    width: 100%;
+    min-height: 100%;
+    
+}
+
+
+.container {
+    width: 100%;
+    max-width: 80%;
+    height: 100%;
+    background: green;
+    margin: 0 auto;
+    position: relative;
+}
+.image-one {
+    width: 100%;
+    height: auto;
+    max-width: 500px;
+    position: fixed;
+    top: 100px;
+    right: 10px;
+
+}
+
+@media (max-width: 800px) {
+
+    .container {
+        background: black;
+    }
+}
