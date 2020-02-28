@@ -1,32 +1,35 @@
 .albums {
-    background-color:pink;
+    background-color: pink;
     width: 100%;
     min-height: 100%;
-    
 }
-
-
 .container {
     width: 100%;
     max-width: 80%;
-    height: 100%;
-    background: green;
+    height: auto;
     margin: 0 auto;
     position: relative;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding-top: 200px;
+    padding-bottom: 200px;
 }
-.image-one {
+.flex-image {
     width: 100%;
     height: auto;
-    max-width: 500px;
-    position: fixed;
-    top: 100px;
-    right: 10px;
-
+    width: 400px;
+    align-self: center;
+    padding: 20px;
+    flex-basis: 25%;
 }
-
 @media (max-width: 800px) {
-
-    .container {
+    .albums {
         background: black;
+    }
+    .container {
+        flex-direction: column;
     }
 }

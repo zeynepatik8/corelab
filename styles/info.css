@@ -58,9 +58,9 @@ text-shadow:2px 2px black;
   transform: translate(-50%, -50%);
 }
 .statement {
-  left: 112vh;
+  z-index: 100;
   position: fixed;
-  left: 740;
+  left: 112vh;
   transform: translate(-50%, -50%);
   z-index: 100;
   top: 150px;
@@ -69,7 +69,7 @@ text-shadow:2px 2px black;
   width: 300;
   display: block;
   margin: 0;
-  margin-right: 20px; 
+  margin-right: 50vh; 
     -webkit-animation: spin1 5s infinite linear;
     -moz-animation: spin1 5s infinite linear;
     -o-animation: spin1 5s infinite linear;

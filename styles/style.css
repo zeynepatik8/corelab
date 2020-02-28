@@ -196,7 +196,7 @@ a{
   width: 300;
   display: block;
   margin: 0;
-  margin-right: 20px; 
+  margin-right: 50vh; 
     -webkit-animation: spin1 5s infinite linear;
     -moz-animation: spin1 5s infinite linear;
     -o-animation: spin1 5s infinite linear;
