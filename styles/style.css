@@ -6,8 +6,6 @@ This is where your custom styles begin.
 
 /* Split the screen in half */
 
-
-
 /* Split the screen in half */
 body {
   margin: 0;
@@ -15,50 +13,47 @@ body {
   -moz-osx-font-smoothing: grayscale;
   box-sizing: border-box;
 }
-*, *::before, *::after {
-box-sizing: inherit;
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
 }
 
-
-
-.info{
+.info {
   text-decoration: none;
   float: left;
   padding-left: 20px;
-  font-family: 'Rubik Mono One', serif ;
+  font-family: "Rubik Mono One", serif;
   color: white;
   border: 4px dashed rgb(0, 0, 0);
   border-radius: 1px;
   padding: 10px 0;
-  
 }
 
-
-.portfolio{
+.portfolio {
   float: left;
   position: relative;
-  font-family: 'Rubik Mono One', serif;
+  font-family: "Rubik Mono One", serif;
   color: white;
-   border: 4px dashed rgb(0, 0, 0);
+  border: 4px dashed rgb(0, 0, 0);
   border-radius: 1px;
   padding: 10px 0;
   left: 10px;
 }
-.portfolyo{
+.portfolyo {
   float: right;
   position: relative;
   right: 10px;
-  font-family: 'Rubik Mono One', serif;
+  font-family: "Rubik Mono One", serif;
   color: white;
   border: 4px dashed rgb(0, 0, 0);
   border-radius: 1px;
   padding: 10px 0;
-
 }
-.hakkımda{
+.hakkımda {
   float: right;
   padding-right: 40px;
-  font-family: 'Rubik Mono One', serif;
+  font-family: "Rubik Mono One", serif;
   color: white;
   border: 4px dashed rgb(0, 0, 0);
   border-radius: 1px;
@@ -67,127 +62,117 @@ box-sizing: inherit;
 
 a:hover {
   color: black;
- 
-
 }
 
 .portfolio:hover {
   color: black;
-
 }
 
 .hakkımda:hover {
   color: black;
-
 }
 .portfolyo:hover {
   color: black;
-
 }
 
 .baslık {
   padding-left: 550px;
 }
 
-.p1:hover{
-
+.p1:hover {
   font-weight: bold;
 }
-.p2:hover{
+.p2:hover {
   font-weight: bold;
 }
-.p3:hover{
- 
+.p3:hover {
   font-weight: bold;
 }
-.o1:hover{
+.o1:hover {
   font-weight: bold;
 }
-.o2:hover{
+.o2:hover {
   font-weight: bold;
 }
-.o3:hover{
+.o3:hover {
   font-weight: bold;
 }
 .p1 {
-  font-family: 'Oswald', serif;
-  
+  font-family: "Oswald", serif;
+
   font-weight: lighter;
-  padding-left: 100px;
- font-size: 50px;
- margin-top: 200px;
+
+  font-size: 50px;
+  text-align: left;
+  margin-top: 200px;
 }
 .p2 {
- 
+  text-align: left;
   font-weight: lighter;
-  padding-left: 100px;
- font-size: 50px;
- margin-top: 110px;
 
+  font-size: 50px;
 }
 .p3 {
- 
- 
+  text-align: left;
   font-weight: lighter;
-  padding-left: 100px;
- font-size: 50px;
- margin-top: 130px;
+  
+  font-size: 50px;
+}
+.p4 {
+  text-align: left;
+  font-weight: lighter;
+  
+  font-size: 50px;
 }
 .o1 {
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
 
   font-weight: lighter;
   padding-right: 200px;
- font-size: 50px;
- margin-top: 200px;
+  font-size: 50px;
+  margin-top: 200px;
 }
 .o2 {
-  font-family: 'Oswald', serif;
- 
-  font-weight: lighter;
-  padding-right: 200px;
- font-size: 50px;
- margin-top: 110px;
-}
-.o3 {
-  font-family: 'Oswald', serif;
+  font-family: "Oswald", serif;
 
   font-weight: lighter;
   padding-right: 200px;
- font-size: 50px;
- margin-top: 130px;
+  font-size: 50px;
+}
+.o3 {
+  font-family: "Oswald", serif;
+
+  font-weight: lighter;
+  padding-right: 200px;
+  font-size: 50px;
 }
 
 .split {
-    
-    height: 100%;
-    width: 50%;
-    position: fixed;
-    z-index: 1;
-    top: 0;
-    overflow-x: hidden;
-    padding-top: 20px;
-    
-  }
-  
-a{
+  height: 100%;
+  width: 50%;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  overflow-x: hidden;
+  padding-top: 20px;
+}
+
+a {
   text-decoration: none;
   color: white;
-
 }
 .graphic {
-
   z-index: 100;
-  position: fixed; 
+  position: fixed;
   left: 50%;
   top: 150px;
   transform: translate(-50%, -50%);
 }
 
- .statement {
+.statement {
   z-index: 100;
   position: fixed;
-  left: 112vh;
+  left: 108vh;
   transform: translate(-50%, -50%);
   z-index: 100;
   top: 150px;
@@ -196,132 +181,178 @@ a{
   width: 300;
   display: block;
   margin: 0;
-  margin-right: 50vh; 
-    -webkit-animation: spin1 5s infinite linear;
-    -moz-animation: spin1 5s infinite linear;
-    -o-animation: spin1 5s infinite linear;
-    -ms-animation: spin1 5s infinite linear;
-    animation: spin1 5s infinite linear;
-        display: block;
+  margin-right: 50vh;
+  -webkit-animation: spin1 5s infinite linear;
+  -moz-animation: spin1 5s infinite linear;
+  -o-animation: spin1 5s infinite linear;
+  -ms-animation: spin1 5s infinite linear;
+  animation: spin1 5s infinite linear;
+  display: block;
 }
-  /* Control the left side */
-  .left {
-    font-family: 'Oswald', serif;
-    text-decoration: none;
-    float: left;
-    padding-left: 20px;
-    color: white;
-    left: 0;
-    background: linear-gradient(176deg, #6000ff, #ff0000, #00ff42, #ff00f5, #291209);
-    background-size: 600% 600%;
-    -o-animation: LeftAnimation 9s ease infinite;
-    animation: LeftAnimation 9s ease infinite;
+/* Control the left side */
+.left {
+  font-family: "Oswald", serif;
+  text-decoration: none;
+  float: left;
+  padding-left: 20px;
+  color: white;
+  left: 0;
+  background: linear-gradient(
+    176deg,
+    #6000ff,
+    #ff0000,
+    #00ff42,
+    #ff00f5,
+    #291209
+  );
+  background-size: 600% 600%;
+  -o-animation: LeftAnimation 9s ease infinite;
+  animation: LeftAnimation 9s ease infinite;
+}
 
+@-o-keyframes LeftAnimation {
+  0% {
+    background-position: 0% 32%;
   }
+  50% {
+    background-position: 100% 69%;
+  }
+  100% {
+    background-position: 0% 32%;
+  }
+}
+@keyframes LeftAnimation {
+  0% {
+    background-position: 0% 32%;
+  }
+  50% {
+    background-position: 100% 69%;
+  }
+  100% {
+    background-position: 0% 32%;
+  }
+}
 
-  @-o-keyframes LeftAnimation {
-    0% {
-      background-position: 0% 32%;
-    }
-    50% {
-      background-position: 100% 69%;
-    }
-    100% {
-      background-position: 0% 32%;
-    }
+.right {
+  margin: auto;
+  float: right;
+  padding-right: 20px;
+  font-family: "Oswald", serif;
+  color: white;
+  right: 0;
+  background: linear-gradient(
+    176deg,
+    #bc94ff,
+    #ffaeae,
+    #75d98e,
+    #ffb9fc,
+    #d2cbc9
+  );
+  background-size: 600% 600%;
+  -o-animation: RightAnimation 15s ease infinite;
+  animation: RightAnimation 15s ease infinite;
+}
+@-o-keyframes RightAnimation {
+  0% {
+    background-position: 70% 0%;
   }
-  @keyframes  LeftAnimation{
-    0% {
-      background-position: 0% 32%;
-    }
-    50% {
-      background-position: 100% 69%;
-    }
-    100% {
-      background-position: 0% 32%;
-    }
+  50% {
+    background-position: 31% 100%;
   }
+  100% {
+    background-position: 70% 0%;
+  }
+}
+@keyframes RightAnimation {
+  0% {
+    background-position: 70% 0%;
+  }
+  50% {
+    background-position: 31% 100%;
+  }
+  100% {
+    background-position: 70% 0%;
+  }
+}
 
-
-  .right {
-    margin: auto;
-    float: right; 
-    padding-right: 20px;
-    font-family: 'Oswald', serif;
-    color: white;
-    right: 0;
-    background: linear-gradient(176deg, #bc94ff, #ffaeae, #75d98e, #ffb9fc, #d2cbc9);
-    background-size: 600% 600%;
-    -o-animation: RightAnimation 15s ease infinite;
-    animation: RightAnimation 15s ease infinite;
-    
-    
+@-webkit-keyframes spin1 {
+  0% {
+    -webkit-transform: rotate(0deg);
   }
-  @-o-keyframes RightAnimation {
-    0% {
-      background-position: 70% 0%;
-    }
-    50% {
-      background-position: 31% 100%;
-    }
-    100% {
-      background-position: 70% 0%;
-    }
+  100% {
+    -webkit-transform: rotate(360deg);
   }
-  @keyframes  RightAnimation{
-    0% {
-      background-position: 70% 0%;
-    }
-    50% {
-      background-position: 31% 100%;
-    }
-    100% {
-      background-position: 70% 0%;
-    }
+}
+@-moz-keyframes spin1 {
+  0% {
+    -moz-transform: rotate(0deg);
   }
+  100% {
+    -moz-transform: rotate(360deg);
+  }
+}
+@-o-keyframes spin1 {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(360deg);
+  }
+}
+@-ms-keyframes spin1 {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(360deg);
+  }
+}
+@-keyframes spin1 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
 
-  @-webkit-keyframes spin1 {
-    0% { -webkit-transform: rotate(0deg);}
-    100% { -webkit-transform: rotate(360deg);}
-    }
-    @-moz-keyframes spin1 {
-    0% { -moz-transform: rotate(0deg);}
-    100% { -moz-transform: rotate(360deg);}
-    }
-    @-o-keyframes spin1 {
-    0% { -o-transform: rotate(0deg);}
-    100% { -o-transform: rotate(360deg);}
-    }
-    @-ms-keyframes spin1 {
-    0% { -ms-transform: rotate(0deg);}
-    100% { -ms-transform: rotate(360deg);}
-    }
-    @-keyframes spin1 {
-    0% { transform: rotate(0deg);}
-    100% { transform: rotate(360deg);}
-    } 
-  
-
-  @-webkit-keyframes spin2 {
-    0% { -webkit-transform: rotate(0deg);}
-    100% { -webkit-transform: rotate(-360deg);}
-    }
-    @-moz-keyframes spin2 {
-    0% { -moz-transform: rotate(0deg);}
-    100% { -moz-transform: rotate(-360deg);}
-    }
-    @-o-keyframes spin2 {
-    0% { -o-transform: rotate(0deg);}
-    100% { -o-transform: rotate(-360deg);}
-    }
-    @-ms-keyframes spin2 {
-    0% { -ms-transform: rotate(0deg);}
-    100% { -ms-transform: rotate(-360deg);}
-    }
-    @-keyframes spin2 {
-    0% { transform: rotate(0deg);}
-    100% { transform: rotate(-360deg);}
-    } 
-  
-  
-  
+@-webkit-keyframes spin2 {
+  0% {
+    -webkit-transform: rotate(0deg);
+  }
+  100% {
+    -webkit-transform: rotate(-360deg);
+  }
+}
+@-moz-keyframes spin2 {
+  0% {
+    -moz-transform: rotate(0deg);
+  }
+  100% {
+    -moz-transform: rotate(-360deg);
+  }
+}
+@-o-keyframes spin2 {
+  0% {
+    -o-transform: rotate(0deg);
+  }
+  100% {
+    -o-transform: rotate(-360deg);
+  }
+}
+@-ms-keyframes spin2 {
+  0% {
+    -ms-transform: rotate(0deg);
+  }
+  100% {
+    -ms-transform: rotate(-360deg);
+  }
+}
+@-keyframes spin2 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(-360deg);
+  }
+}
