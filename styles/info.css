@@ -60,7 +60,7 @@ text-shadow:2px 2px black;
 .statement {
   z-index: 100;
   position: fixed;
-  left: 112vh;
+  left: 108vh;
   transform: translate(-50%, -50%);
   z-index: 100;
   top: 150px;
