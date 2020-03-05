@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css?family=Work+Sans&display=swap');
+
+
+.timecapsule {
+    background: black;
+    width: 100vw;
+    min-height: 100%;
+    position: relative;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+h1 {
+    margin: 0;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    text-align: center;
+    font-family: 'Work Sans';
+    color: white;
+}
+
+.flexbox {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    color: white;
+}
+
+.flex-image {
+    width: 100%;
+    max-width: 500px;
+    flex-basis: 40%;
+    padding: 20px;
+ }
+
+
+ 
+
+@media (min-width: 800px) {
+
+
+    .image-one {
+        position: absolute;
+        top: 60%;
+        bottom: 100px;
+    }
+
+    .image-two {
+        position: absolute;
+        top: 10%;
+        left: 300px;
+    }
+    .image-three {
+        position: absolute;
+        top: 20%;
+        right: 20px;
+    }
+
+    .image-four {
+        position: absolute;
+        top: 400px;
+        left: 200px;
+    }
+
+    
+}
+
+
+.fade-in {
+	opacity: 1;
+	animation-name: fadeIn;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in;
+	animation-duration: .4s;
+}
+
+@keyframes fadeIn {
+	0% {
+		opacity: 0;
+	}
+	100% {
+		opacity: 1;
+	}
+}
+
+
